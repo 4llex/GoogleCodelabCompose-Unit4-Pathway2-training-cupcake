@@ -108,7 +108,10 @@ fun SelectQuantityButton(
     }
 }
 
-@Preview
+@Preview(
+    showSystemUi = true,
+    showBackground = true
+)
 @Composable
 fun StartOrderPreview() {
     CupcakeTheme {
